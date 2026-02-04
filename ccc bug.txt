@@ -1,0 +1,40 @@
+ID: BUGR1
+Tytuł: Funkcja „Ponów płatność” przekierowuje na stronę główną zamiast do płatności
+
+Typ błędu: Funkcjonalny
+Ważność: Wysoki
+Priorytet: Wysoki
+
+Środowisko:
+
+Windows 10 — Edge, Firefox
+
+Android 16 — Samsung Galaxy S25 Ultra (przeglądarka mobilna)
+
+Reprodukowalność: Zawsze
+
+Warunki wstępne:
+
+Użytkownik jest zalogowany
+
+Istnieje zamówienie z metodą płatności BLIK
+
+Zamówienie ma status „nieopłacone”
+
+Kroki do odtworzenia:
+
+Wejść na stronę https://ccc.eu/pl/
+
+Otworzyć „Moje konto”
+
+Przejść do „Moje zamówienia”
+
+Otworzyć szczegóły nieopłaconego zamówienia
+
+Kliknąć przycisk „Ponów płatność”
+
+Oczekiwany rezultat:
+Użytkownik zostaje przekierowany do strony płatności (ponowienie transakcji dla danego zamówienia).
+
+Rzeczywisty rezultat:
+Użytkownik zostaje przekierowany na stronę główną sklepu.
